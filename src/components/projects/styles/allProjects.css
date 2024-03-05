@@ -1,0 +1,29 @@
+.all-projects-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: -35px;
+	margin-right: -35px;
+}
+
+.all-projects-project {
+	width: calc(100% / 3);
+	box-sizing: border-box;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.last-project {
+	opacity: 0.5;
+}
+.last-project:hover {
+	opacity: 1;
+}
+
+@media (max-width: 600px) {
+	.all-projects-project {
+		width: calc(100% / 2);
+	}
+}

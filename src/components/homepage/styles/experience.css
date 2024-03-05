@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital");
+
+
+
+
+
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1350px;
+    }
+    
+}
+
+
+.section_title p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+.section_title h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #15295f
+}
+
+.section_title.center {
+    text-align: center;
+}
+
+.experience-section {
+    padding: 65px 0 100px;
+    position: relative;
+}
+
+.experience-section .experience-items {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.experience-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+
+}
+
+.experience-info {
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+.experience-info p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #15295f;
+    opacity: 1;
+    -webkit-animation: showText 0.5s 1s linear forwards;
+    animation: showText 0.5s 1s linear forwards;
+}
+
+.experience-logo-name {
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+}
+
+.experience-logo {
+   width: auto;
+   height: 30px; 
+   padding-right: 10px;
+}
+
+.progress-line {
+    margin-top: 7px;
+    height: 10px;
+    width: 100%;
+    background-color: #cdcdcd;
+    border-radius: 50px;
+    position: relative;
+}
+
+.progress-line span {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-animation: animate 1s cubic-bezier(1,0,0.5,1)forwards;
+    animation: animate 1s cubic-bezier(1,0,0.5,1)forwards;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: var(--link-color);
+    transition: 1s all;
+}
+
+.progress-line span.animate {
+    -webkit-animation: animate 1.5s 0.5s cubic-bezier(1,0,0.5,1) forwards;
+    animation: animate 1.5s 0.5s cubic-bezier(1,0,0.5,1) forwards;
+
+}
+
+.progress-line-soft {
+    margin-top: 7px;
+    height: 10px;
+    width: 100%;
+    background-color: #cdcdcd;
+    border-radius: 50px;
+    position: relative;
+}
+
+.progress-line-soft span {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-animation: animate 1s cubic-bezier(1,0,0.5,1)forwards;
+    animation: animate 1s cubic-bezier(1,0,0.5,1)forwards;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #800080;
+    transition: 1s all;
+}
+
+.progress-line-soft span.animate {
+    -webkit-animation: animate 1.5s 0.5s cubic-bezier(1,0,0.5,1) forwards;
+    animation: animate 1.5s 0.5s cubic-bezier(1,0,0.5,1) forwards;
+
+}
+
+
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+@-webkit-keyframes animate {
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+}
+
+@keyframes animate {
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    
+}
+
+
+
+
+
+
+
