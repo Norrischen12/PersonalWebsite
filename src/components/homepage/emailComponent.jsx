@@ -7,7 +7,7 @@ const EmailComponent = () => {
 
     const handleClick = () => {
         
-        navigate('/contact');
+        navigate('/PersonalWebsite/contact');
     };
 	return (
 		<React.Fragment>

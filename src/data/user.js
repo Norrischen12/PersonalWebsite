@@ -3,7 +3,7 @@ const INFO = {
 		title: "Reactfolio ",
 		name: "Norris Chen",
 		email: "norrisch@seas.upenn.edu",
-		logo: "logo.png",
+		logo: "/PersonalWebsite/logo.png",
 	},
 
 	socials: {
