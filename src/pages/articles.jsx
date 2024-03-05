@@ -45,7 +45,7 @@ const Articles = () => {
 						</div>
 
 						<div className="articles-img-container">
-							<img src="resume.png" alt="resume">
+							<img src="./PersonalWebsite/resume.png" alt="resume">
 							</img>
 						</div>
 
