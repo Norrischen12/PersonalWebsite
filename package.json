@@ -5,7 +5,8 @@
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
 		"name": "Norris Chen",
-		"email": "norrisch@seas.upenn.edu"
+		"email": "norrisch@seas.upenn.edu",
+		"url": "https://Norrischen12.github.io/PersonalWebsite/#/PersonalWebsite"
 	},
 	"license": "MIT",
 	"private": false,
