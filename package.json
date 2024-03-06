@@ -1,12 +1,12 @@
 {
-	"homepage": "https://Norrischen12.github.io/PersonalWebsite/#/PersonalWebsite",
+	"homepage": "https://Norrischen12.github.io/PersonalWebsite/",
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
 		"name": "Norris Chen",
 		"email": "norrisch@seas.upenn.edu",
-		"url": "https://Norrischen12.github.io/PersonalWebsite/#/PersonalWebsite"
+		"url": "https://Norrischen12.github.io/PersonalWebsite/"
 	},
 	"license": "MIT",
 	"private": false,
