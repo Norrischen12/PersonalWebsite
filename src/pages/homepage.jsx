@@ -200,7 +200,7 @@ const Homepage = () => {
 							<h1>Projects</h1>
 							<SixProjects />
 							<div className="homepage-projects-see-more">
-								<a href="/PersonalWebsite/projects">See More...</a>
+								<a href="PersonalWebsite/#/PersonalWebsite/projects">See More...</a>
 							</div>
 						</div>
 						<div className="experience">
